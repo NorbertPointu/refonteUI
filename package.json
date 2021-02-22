@@ -1,0 +1,109 @@
+{
+  "name": "react-material-dashboard",
+  "author": "DeviasIO",
+  "licence": "MIT",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build:dev": "SET NODE_ENV=dev npm run build --dev --configuration=dev && react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "doc": "styleguidist server"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^1.3.4",
+    "@invisionag/react-skeletons": "0.0.22",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@material-ui/styles": "^4.10.0",
+    "@types/yup": "^0.29.11",
+    "axios": "^0.21.1",
+    "chai": "^4.2.0",
+    "chai-enzyme": "^1.0.0-beta.0",
+    "chai-jest-diff": "^1.0.2",
+    "chart.js": "^2.9.4",
+    "clsx": "^1.1.1",
+    "dirty-chai": "^2.0.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "firebase": "^8.2.7",
+    "formik": "^2.1.5",
+    "fs": "0.0.1-security",
+    "history": "^5.0.0",
+    "i18next-browser-languagedetector": "^6.0.1",
+    "i18next-http-backend": "^1.0.22",
+    "lodash": "^4.17.19",
+    "match-sorter": "^6.2.0",
+    "moment": "^2.27.0",
+    "namor": "^2.0.2",
+    "nprogress": "^0.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-chartjs-2": "^2.10.0",
+    "react-dom": "^16.13.1",
+    "react-feather": "^2.0.8",
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "^6.15.2",
+    "react-i18next": "^11.8.5",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-redux": "^7.2.2",
+    "react-router": "^6.0.0-beta.0",
+    "react-router-dom": "^6.0.0-beta.0",
+    "react-scripts": "^4.0.0",
+    "react-table": "^7.6.3",
+    "react-test-renderer": "^17.0.1",
+    "react-useportal": "^1.0.13",
+    "redux": "^4.0.5",
+    "sinon": "^9.2.3",
+    "sinon-chai": "^3.5.0",
+    "string-hash": "^1.1.3",
+    "styled-components": "^5.2.1",
+    "use-axios-hooks": "^1.0.4",
+    "uuid": "^8.3.0",
+    "yup": "^0.29.3"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.12.13",
+    "@babel/plugin-transform-runtime": "^7.12.15",
+    "@babel/preset-env": "^7.12.13",
+    "babel-jest": "^26.6.3",
+    "dotenv-cli": "^4.0.0",
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "fake-indexeddb": "^3.1.2",
+    "jest-mock-axios": "^4.3.0",
+    "prettier": "^1.19.1",
+    "react-styleguidist": "^11.1.5",
+    "redux-mock-store": "^1.5.4",
+    "redux-thunk": "^2.3.0"
+  }
+}
